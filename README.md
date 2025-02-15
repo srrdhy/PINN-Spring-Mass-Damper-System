@@ -16,8 +16,8 @@ PINN弹簧质量抑制系统
                 nn.init.zeros_(param)
 ```
 相同参数配置下，无初始化的训练结果：
-![[无初始化结果.png](https://github.com/srrdhy/PINN-Spring-Mass-Damper-System/blob/main/images/%E6%97%A0%E5%88%9D%E5%A7%8B%E5%8C%96%E7%BB%93%E6%9E%9C.png?raw=true)]
+![image](https://github.com/srrdhy/PINN-Spring-Mass-Damper-System/blob/main/images/%E6%97%A0%E5%88%9D%E5%A7%8B%E5%8C%96%E7%BB%93%E6%9E%9C.png)
 初始化后，与原文TensorFlow版本的结果类似，与解析解基本一致：
-![[初始化后结果.png](https://github.com/srrdhy/PINN-Spring-Mass-Damper-System/blob/main/images/%E5%88%9D%E5%A7%8B%E5%8C%96%E5%90%8E%E7%BB%93%E6%9E%9C.png?raw=true)]
+![image](https://github.com/srrdhy/PINN-Spring-Mass-Damper-System/blob/main/images/%E5%88%9D%E5%A7%8B%E5%8C%96%E5%90%8E%E7%BB%93%E6%9E%9C.png)
 解析解：
-![[解析解.png](https://github.com/srrdhy/PINN-Spring-Mass-Damper-System/blob/main/images/%E8%A7%A3%E6%9E%90%E8%A7%A3.png?raw=true)]
+![image](https://github.com/srrdhy/PINN-Spring-Mass-Damper-System/blob/main/images/%E8%A7%A3%E6%9E%90%E8%A7%A3.png)
