@@ -3,7 +3,7 @@ PINN弹簧质量抑制系统
 
 原文：https://medium.com/@oladayo_7133/applying-deep-learning-in-physics-solving-a-spring-mass-damper-system-using-physics-informed-1a002474235a
 
-![[方程描述.png](https://github.com/srrdhy/PINN-Spring-Mass-Damper-System/blob/main/images/%E6%96%B9%E7%A8%8B%E6%8F%8F%E8%BF%B0.png?raw=true)]
+![image]([https://github.com/lexsaints/powershell/blob/master/IMG/ps2.png](https://github.com/srrdhy/PINN-Spring-Mass-Damper-System/blob/main/images/%E6%96%B9%E7%A8%8B%E6%8F%8F%E8%BF%B0.png?raw=true))
 原文用了TensorFlow，我用Pytorch重写后效果不佳，损失无法下降，后发现网络没做初始化，初始化对训练的影响还是很大的。
 
 关键的初始化代码：（在网络定义里）
